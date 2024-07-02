@@ -2,35 +2,54 @@
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
 
-### `develop`
+## Project Description
+### Seasalon-backend 
+Seasalon-backend is restfull api and ease to use also used for developing seasalon-frontend.
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+## Acces the demo
+https://seasalon-backend.onrender.com/admin
+### You can use this account: 
+|     Email                                 | Password           | Role |
+| ----------------------------------------- | ------------------ |------|
+|  erwinhafizzxr@gmail.com                  | Keluarga10*        |Admin |
 
-```
-npm run develop
-# or
-yarn develop
-```
+
+
+## How to start locally
+1. Clone the project githube on your terminal
+   ```bash
+   git clone https://github.com/ErwinHafiz/seasalon-backend.git
+   ```
+2. Go to directory
+   ```bash
+   cd seasalon-backend
+   ```
+3. Install dependency
+   ```bash
+   npm i or npm install
+   ```
+4. Run the scripts
+   ```bash
+   npm run develop
+   ```
+Voila the projects run on your local
+Open http://localhost:1337/admin with your browser to see the result.
+after that you need to login: 
+### You can use this account: 
+|     Email                                 | Password           | Role |
+| ----------------------------------------- | ------------------ |------|
+|  erwinhafizzxr@gmail.com                  | Keluarga10*        |Admin |
+
+# Tech stack 
+  **Client**: Nextjs, TailwindCSS, Shadcn\
+  **Server**: Supabase(postgrees) , Strapi, Javascript
 
 ### `start`
 
 Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
 
-```
-npm run start
-# or
-yarn start
-```
 
-### `build`
 
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
-
-```
-npm run build
-# or
-yarn build
-```
 
 ## ⚙️ Deployment
 
